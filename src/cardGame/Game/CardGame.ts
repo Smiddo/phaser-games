@@ -15,7 +15,7 @@ export class CardGameScene extends Phaser.Scene {
     [...minions, ...enemies].forEach((unit) =>
       this.load.image(unit.imageKey, unit.imagePath),
     );
-    this.load.image("coins", "cardGame/Assets/Coins.png");
+    this.load.image("coins", "cardGame/Assets/coins.png");
   }
   create() {
     this.registerGeneralListeners();
