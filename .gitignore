@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Build
+dist/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Local tools / scripts
+Scripts/Comfy/
+
+# Logs
+*.log
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db

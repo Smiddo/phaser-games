@@ -1,0 +1,27 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: #f5f7fa;
+  background: #10141c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+main {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  padding: 1rem;
+}
+
+.game-container canvas {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
